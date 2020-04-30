@@ -18,7 +18,15 @@ div {
 }
 
 .blue {
-  background-color: blue;
+  background-color: rgb(78, 78, 214);
+}
+
+.green {
+  background-color: rgb(26, 92, 26);
+}
+
+.pink {
+  background-color: rgb(212, 114, 147);
 }
 
 .invisible {
