@@ -34,14 +34,8 @@ function three() {
   three.classList.add('pink')
 }
 // CREATE FUNCTION makeVisible HERE
-  function makeVisible(){
-  var makeVisible = document.getElementsByClassName('invisible');
-  var visible = ('invisible')
-  //var invisible = document.getElementsByClassName('invisible');
-  //var invisible = invisible[0]
-  //var elements = document.getElementsByClassName('invisible');
- //console.log.document.getElementsByClassName[0];
-  //return invisible.nodeName === 'DIV';
- 
-  visible.classList.add('invisible');
-}
+  function makeVisible() {
+    var makeVisible = document.getElementsByClassName('invisible', 'visible')[0];
+
+    makeVisible.classList.add('visible');
+ }
